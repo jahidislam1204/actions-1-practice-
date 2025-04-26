@@ -14,7 +14,7 @@ jobs:
         run: ls -ltra
       - name: Executing shell script
         run: |
-          chmod +x ./ascii.sh
+          chmod +x ascii.sh
           ./ascii.sh
 
       
