@@ -2,9 +2,9 @@ name: Matrix Configuration
 
 on:
     push:
-    # workflow_dispatch: 
-      branches:
-            - dev
+    workflow_dispatch: 
+    #   branches:
+    #         - dev
 
 
 jobs:
