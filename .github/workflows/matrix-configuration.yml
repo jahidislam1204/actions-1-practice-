@@ -19,7 +19,8 @@ jobs:
           run: docker info
 
         - name: Run Images on ${{ matrix.os }}
-          run: ${{ matrix.images }}
+          run: docker run ${{ matrix.images }}
+
 
 
     # deploy-on-windows:
